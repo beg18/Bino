@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
-    <title>Fashion</title>
+    <title>Welcome to Bino</title>
 
     <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -47,9 +47,9 @@
     </div>
 </div>
 <!--/.debug  -->
-<header class="header">
+<header class="header" id="js_top">
 
-  <nav hidden>
+  <nav hidden id="js-nav">
     <div class="nav-header">
       <a href="#" class="brand">
         <img src="i/logo.png" alt="Logo Bino" />
@@ -59,13 +59,13 @@
       </button>
     </div>
     <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">AboutUs</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Pricing</a></li>
-      <li><a href="#">Team</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact </a></li>
+      <li><a href="#js_top">Home</a></li>
+      <li><a href="#js_advantages">About Us</a></li>
+      <li><a href="#js_portfolio">Portfolio</a></li>
+      <li><a href="#js_price">Pricing</a></li>
+      <li><a href="#js_team">Team</a></li>
+      <li><a href="#js_blog">Blog</a></li>
+      <li><a href="#js_keep">Contact </a></li>
     </ul>
   </nav>
 
@@ -1227,6 +1227,9 @@
     <!-- //wrapper -->
 </section>
 <!-- End free -->
+  <a href="#js_top" class="arrow-top">
+    <span class="icon-arrow-up"></span>
+  </a>
 </main>
 <!-- End main -->
 <footer id="js_footer" class="footer">
@@ -1271,9 +1274,7 @@
           </div>
         </div>
         <!-- End js_footer__wrap -->
-      <a href="#" class="arrow-top">
-        <span class="icon-arrow-up"></span>
-      </a>
+
     </div>
     <!-- End wrapper -->
 </footer>
